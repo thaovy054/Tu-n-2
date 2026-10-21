@@ -80,6 +80,8 @@
 ---
 
 ## 6. Biểu đồ trực quan hóa
+<img width="412" height="347" alt="image" src="https://github.com/user-attachments/assets/6a543c3d-22f4-4181-b587-e11ed1eb6343" />
+
 
 *(Xem file đính kèm `thong_ke_tuan1.png` — 4 biểu đồ: phân phối thờigian chuyến, boxplot theo khung giờ, OSRM vs thực tế, khoảng cách vs thờigian theo tuyến)*
 
