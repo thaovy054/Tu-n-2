@@ -21,13 +21,13 @@ python validate_trips_csv.py trips_ml_v1.csv
 ```
 
 - Baseline (Quỳnh Phiếu): dùng cột `actual_travel_time` + `departure_time_full` (đã có sẵn để tương thích `baseline.py`).
-- Khi bổ sung tuyến mới từ hàm OSRM của Hải My: cập nhật CSV → chạy lại validate → tăng version (v2).
+- Khi bổ sung tuyến mới từ hàm OSRM: cập nhật CSV → chạy lại validate → tăng version (v2).
 
 ## 4. Lịch sử phiên bản
 
-| Version | Ngày | Ngườithực hiện | Thay đổi |
+| Version | Ngày | Thay đổi |
 |---|---|---|---|
-| v1 | 21/10/2026 | Thảo Vy | Chuẩn hóa cột cờ, đổi tên cột khớp baseline, 54 chuyến / 2 tuyến |
+| v1 | 21/10/2026 | Chuẩn hóa cột cờ, đổi tên cột khớp baseline, 54 chuyến / 2 tuyến |
 
 ---
 
