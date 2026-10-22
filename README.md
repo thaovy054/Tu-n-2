@@ -31,14 +31,12 @@ python validate_trips_csv.py trips_ml_v1.csv
 
 ---
 
-# BÁO CÁO THỐNG KÊ DỮ LIỆU CHUYẾN ĐI – TUẦN 2
+# THỐNG KÊ DỮ LIỆU CHUYẾN ĐI
 
 | Thông tin | Chi tiết |
 |---|---|
-| **Ngườithực hiện** | Thảo Vy |
-| **Ngày lập** | 21/10/2026 |
 | **Dữ liệu phân tích** | `sample_trips.csv` (bộ dữ liệu thu thập tuần 1) |
-| **Đối chiếu** | `baseline.py` của Quỳnh Phiếu (mô hình baseline theo trung bình tuyến) |
+| **Đối chiếu** | `baseline.py` (mô hình baseline theo trung bình tuyến) |
 
 ## 4.1. Tổng quan bộ dữ liệu
 
@@ -85,7 +83,7 @@ python validate_trips_csv.py trips_ml_v1.csv
 
 **Kết luận:** OSRM — dù là công cụ định tuyến chuẩn — vẫn sai lệch trung bình hơn 10 phút và chỉ đúng trong ngưỡng 10 phút ở một nửa số chuyến, vì OSRM không tính đến tình trạng giao thông theo giờ. Đây là cơ sở khoa học cho mục tiêu của mô hình ML:
 
-> 🎯 **Mục tiêu mô hình ML:** MAE < 10 phút và tỷ lệ sai số ≤ 10 phút > 70% (vượt baseline OSRM).
+> **Mục tiêu mô hình ML:** MAE < 10 phút và tỷ lệ sai số ≤ 10 phút > 70% (vượt baseline OSRM).
 
 ## 4.5. Phân tích ghi chú bất thường (cột `notes`)
 
